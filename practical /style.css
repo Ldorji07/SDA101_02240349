@@ -1,0 +1,7 @@
+/*this is for table boader*/
+table, th, td{
+    border: 1px solid black;border-collapse: collapse}
+ /*this is for text*/   
+.text{
+    color: red;
+}
