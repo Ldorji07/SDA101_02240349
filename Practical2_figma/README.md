@@ -1,0 +1,2 @@
+# SDA101_02240349 https://www.figma.com/design/txXEBLXbeV048PEkFQ5LMI/Personal-Profile?node-id=0-1&t=kRu9HKWQGRAVohUt-1
+# SDA101_02240349 https://www.figma.com/design/h9lsRKwvVCdgsrPufJomNl/Wireframe-(HW)?node-id=0-1&t=p6FcJoACdJLbdzQY-1

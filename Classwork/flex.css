@@ -1,0 +1,21 @@
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex-item{
+    border: 1px solid black;
+}
+
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+
+}
+
+.grid-item{
+    border: 1px solid black;
+    justify-content: space-around;
+}
