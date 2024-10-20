@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fc;
+}
+
+.header {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .menu {
+    font-size: 24px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #f1f7fe;
+}
+
+.contact-section img {
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-section .content {
+    max-width: 50%;
+    padding: 0 20px;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.content button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.thanks-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f1f7fe;
+}
+
+.thanks-section h2 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.thanks-section .text {
+    max-width: 60%;
+    text-align: left;
+}
+
+.thanks-section p {
+    max-width: 800px;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.thanks-section button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.offices-section {
+    padding: 50px 0;
+    background-color: #d9e6f7;
+    text-align: center;
+}
+
+.offices-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.offices-section p {
+    max-width: 800px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+.offices-section .offices {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.offices-section .offices li {
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    color: #333;
+}
+
+.offices-section .offices li h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.offices-section .offices li p {
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+.contact-form-section {
+    padding: 50px 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form-section form {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f1f7fe;
+}
+
+.contact-form-section input,
+.contact-form-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form-section button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #212529;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

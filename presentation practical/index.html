@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pointer Event Example</title>
+    <style>
+        #myElement {
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+<div id="myElement"></div>
+
+<script>
+    // Get the element 
+    var element = document.getElementById("myElement");
+
+    // Attach the event listeners to the element 
+    element.addEventListener("pointerdown", function(event) {
+        //Handle the pointer down event
+        console.log("pointer down");
+        // Add your desired code here 
+        } );
+
+    element.addEventListener("pointerup", function(event) {
+        //Handle the pointer up event
+        console.log("pointer up");
+        // Add your desired code here 
+        } );
+
+    element.addEventListener("pointer move", function(event) {
+        //Handle the pointer move event
+        console.log("pointer move");
+        // Add your desired code here 
+        } );
+
+    element.addEventListener("pointerenter", function(event) {
+        //Handle the pointerenter event
+        console.log("pointerenter");
+        // Add your desired code here 
+        } );
+
+    element.addEventListener("pointerleave", function(event) {
+        //Handle the pointerleave event
+        console.log("pointerleave");
+        // Add your desired code here 
+        } );
+
+    element.addEventListener("pointerover", function(event) {
+        //Handle the pointerover event
+        console.log("pointerover");
+        // Add your desired code here 
+        } );
+
+    element.addEventListener("pointerout", function(event) {
+        //Handle the pointerout event
+        console.log("pointerout");
+        // Add your desired code here 
+        } );
+
+    element.addEventListener("pointercancel", function(event) {
+        //Handle the pointercancel event
+        console.log("pointercancel");
+        // Add your desired code here 
+        } );
+
+        
+</script>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+
+}
+.navbar a{text-decoration: none;
+color: black;}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.navbar{
+    background-color: gray;
+
+}
+.navbar a:hover{
+    color: aliceblue;
+} 
