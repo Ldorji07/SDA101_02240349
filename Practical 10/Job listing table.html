@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <nav class="bg-blue-600 p-4">
+        <div class="container mx-auto flex justify-between">
+            <h1 class="text-white text-xl">College</h1>
+            <div>
+                <a href="#home" class="text-white px-4">Home</a>
+                <a href="#about" class="text-white px-4">About</a>
+                <a href="#courses" class="text-white px-4">Courses</a>
+                <a href="#contact" class="text-white px-4">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto mt-8">
+        <h2 class="text-2xl font-semibold text-center mb-4">Job Listings</h2>
+
+        <table class="min-w-full bg-white border border-gray-300 mb-6">
+            <thead>
+                <tr class="bg-gray-200">
+                    <th class="py-2 px-4 border-b">Job Title</th>
+                    <th class="py-2 px-4 border-b">Company</th>
+                    <th class="py-2 px-4 border-b">Location</th>
+                    <th class="py-2 px-4 border-b">Deadline</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="py-2 px-4 border-b">Software Engineer</td>
+                    <td class="py-2 px-4 border-b">Tech Solutions</td>
+                    <td class="py-2 px-4 border-b">New York</td>
+                    <td class="py-2 px-4 border-b">Dec 1</td>
+                </tr>
+                <tr>
+                    <td class="py-2 px-4 border-b">Data Analyst</td>
+                    <td class="py-2 px-4 border-b">Data Corp</td>
+                    <td class="py-2 px-4 border-b">San Francisco</td>
+                    <td class="py-2 px-4 border-b">Jan 15</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 class="text-2xl font-semibold text-center mb-4">Photo Gallery</h2>
+        <div class="grid grid-cols-2 gap-4">
+            <img src="images.jpeg" alt="Image 1" class="rounded shadow-md">
+            <img src="istockphoto-475352876-612x612.jpg" alt="Image 2" class="rounded shadow-md">
+            <img src="job-hiring-vacancy-team-interview-career-recruiting_53876-121268.avif" alt="Image 3" class="rounded shadow-md">
+            <img src="jobs_660_130920052343_291020052310.avif" alt="Image 4" class="rounded shadow-md">
+        </div>
+    </div>
+
+    <div class="flex justify-center mt-8">
+        <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+            Apply Now
+        </button>
+    </div>
+
+    <footer class="bg-gray-800 text-white text-center py-4 mt-8">
+        <p>&copy; 2024 College. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
